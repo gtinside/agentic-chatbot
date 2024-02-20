@@ -57,6 +57,13 @@ The query type is:  Intent.GENERAL
 autogen will be queried.
 Conversation programming is a paradigm that focuses on computation and control flow within multi-agent conversations. AutoGen utilizes this by creating conversable agents with defined capabilities and roles, and programming their interaction behaviors through conversation-centric computation and control.
 ```
+```
+python main.py --query "Compare and contrast how metagpt and autogen handle roles"    
+Document processed successfully
+The query type is:  Intent.GENERAL
+None will be queried.
+MetaGPT assigns specific roles to different GPTs within a multi-agent conversation framework specifically for the purpose of automatic software development, indicating a specialized and structured approach to role assignment based on the task at hand. In contrast, AutoGen provides a generic infrastructure that supports the development of applications across various scenarios, suggesting a more flexible and broad approach to role handling without the explicit assignment of roles to specific agents or components for different tasks.
+```
 
 ```
 python main.py --query "What communication protocols are optimal for metagpt?"          

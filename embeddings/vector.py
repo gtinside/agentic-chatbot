@@ -50,9 +50,11 @@ class Vector:
         Returns:
             response: The response from the query engine.
         """
-        filters = MetadataFilters(
-            filters=[ExactMatchFilter(key="type", value=document_type)]
-        )
+        filters = None
+        if document_type:
+            filters = MetadataFilters(
+                filters=[ExactMatchFilter(key="type", value=document_type)]
+            )
         query_engine = self.index.as_query_engine(filters=filters)
         if query_type == Intent.SUMMARIZATION:
             documents = self.collection.get(where={"type": document_type})['documents']

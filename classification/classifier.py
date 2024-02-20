@@ -36,6 +36,11 @@ class Classifier:
         Returns:
             response: The type of document
         """
+        types = []        
         for attribute in metadata.values():
             if attribute in query:
-                return attribute
+                types.append(attribute)
+        
+        if len(types) == len(metadata):
+            return None
+        return types[0]
