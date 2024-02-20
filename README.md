@@ -14,6 +14,15 @@ To test the chatbot's performance, it will be run and its output saved for the f
 
 
 ## Dependencies
+- openai
+- chromadb
+- llama-index
+- llama-index-embeddings-huggingface
+- llama-index-vector-stores-chroma
+- sentence-transformers
+- pydantic
+- langchain
+- OPENAI_API_KEY
 
 ## How to use it?
 ```python main.py --query "Summarize the metagpt paper"```
