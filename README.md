@@ -24,6 +24,10 @@ To test the chatbot's performance, it will be run and its output saved for the f
 - langchain
 - OPENAI_API_KEY
 
+## Assets
+- Documents are in ```assets/docs```
+- Document metadata in ```assets/metadata.json```
+
 ## How to use it?
 ```python main.py --query "Summarize the metagpt paper"```
 
