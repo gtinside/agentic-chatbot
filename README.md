@@ -57,7 +57,7 @@ The AutoGen paper introduces an open-source framework designed to facilitate the
 ```
 python main.py --query "What is conversation programming, and how does autogen utilize it?"   
 Document processed successfully
-The query type is:  None
+The query type is:  Intent.GENERAL
 autogen will be queried.
 Conversation programming is a paradigm that focuses on computation and control flow within multi-agent conversations. AutoGen utilizes this by creating conversable agents with defined capabilities and roles, and programming their interaction behaviors through conversation-centric computation and control.
 ```
