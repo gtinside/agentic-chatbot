@@ -17,10 +17,6 @@ To test the chatbot's performance, it will be run and its output saved for the f
 - openai
 - chromadb
 - llama-index
-- llama-index-embeddings-huggingface
-- llama-index-vector-stores-chroma
-- sentence-transformers
-- pydantic
 - langchain
 - OPENAI_API_KEY
 
